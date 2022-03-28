@@ -12,7 +12,6 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         "importlib",
-        "gzip",
     ],
     extras_require={
         "s3fs": ["s3fs>=0.4.2"],
