@@ -2,7 +2,7 @@ from xtore.explotracker import ExperimentStorage
 import importlib
 import sys
 
-class LocalExperimentLogger(ExperimentStorage):
+class LocalExperimentStorage(ExperimentStorage):
 
     def __init__(self, root):
         SPEC_OS = importlib.util.find_spec('os')
