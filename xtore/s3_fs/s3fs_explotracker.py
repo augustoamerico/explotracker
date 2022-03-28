@@ -1,5 +1,5 @@
 from s3fs import S3FileSystem
-from xtore import ExperimentStorage
+from explotracker import ExperimentStorage
 
 class S3ExperimentStorage(ExperimentStorage):
 
