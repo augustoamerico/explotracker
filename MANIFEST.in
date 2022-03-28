@@ -1,2 +1,3 @@
 include versioneer.py
 include explotracker/_version.py
+include xtore/_version.py
