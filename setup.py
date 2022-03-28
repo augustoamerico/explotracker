@@ -11,13 +11,8 @@ setup(
     packages=find_packages(),
     python_requires=">=3.6",
     install_requires=[
-        "pickle",
-        "sys",
         "importlib",
-        "os",
         "gzip",
-        "io",
-        "typing",
     ],
     extras_require={
         "s3fs": ["s3fs>=0.4.2"],
