@@ -1,4 +1,4 @@
-from explotracker import ExperimentStorage, ExperimentNotFound, ExperimentAlreadyExists, Experiment
+from xtore.explotracker import ExperimentStorage, ExperimentNotFound, ExperimentAlreadyExists, Experiment
 
-from s3_fs.s3fs_explotracker import S3ExperimentStorage
-from local_fs.localfs_explotracker import LocalExperimentStorage
+from xtore.s3_fs.s3fs_explotracker import S3ExperimentStorage
+from xtore.local_fs.localfs_explotracker import LocalExperimentStorage
