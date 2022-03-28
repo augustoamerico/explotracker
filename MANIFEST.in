@@ -1,0 +1,2 @@
+include versioneer.py
+include explotracker/_version.py
